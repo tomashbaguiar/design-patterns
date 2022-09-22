@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.SolidPrinciples.OpenClosed.Wrong;
+﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
 public enum Size
 {

@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite;
+namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.GeometricShapes;
 
 public class GraphicObject
 {

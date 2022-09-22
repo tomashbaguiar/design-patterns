@@ -1,8 +1,11 @@
 ﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
-public abstract class ISpecification<T>
+public abstract class Specification<T>
 {
     public abstract bool IsSatisfied(T type);
-    
-    public static 
+
+    public static Specification<T> operator &(Specification<T> first, Specification<T> second)
+    {
+        return new AndSpecification<T>(first, second);
+    }
 }

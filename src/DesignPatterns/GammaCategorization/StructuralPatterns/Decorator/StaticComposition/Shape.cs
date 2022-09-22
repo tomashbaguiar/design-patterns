@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Decorator.StaticComposition;
 
-public class Shape
+public abstract class Shape
 {
-    
+    public abstract string AsString();
 }

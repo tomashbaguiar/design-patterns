@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Decorator.DynamicComposition;
 
-public abstract class IShape
+public abstract class Shape
 {
-    string AsString();
+    public virtual string AsString() => string.Empty;
 }

@@ -1,15 +1,23 @@
 ﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Decorator.DynamicComposition;
 
-public class ColorShape : IShape
+public class ColoredShape : ShapeDecorator<ColoredShape, ThrowOnCyclePolicy> 
+    // : ShapeDecoratorWithPolicy<ColoredShape>
 {
-    private IShape _shape;
     private string _color;
 
-    public ColorShape(IShape shape, string color)
+    public ColoredShape(Shape shape, string color) : base(shape)
     {
-        _shape = shape;
+        Shape = shape;
         _color = color;
     }
 
-    public string AsString() => $"{_shape.AsString()} has the color {_color}";
+    public override string AsString()
+    {
+        var stringBuilder = new System.Text.StringBuilder($"{Shape.AsString()}");
+
+        if (Policy.ApplicationAllowed(Types.First(), Types.Skip(1).ToList()))
+            stringBuilder.Append($" has the color {_color}");
+
+        return stringBuilder.ToString();
+    }
 }

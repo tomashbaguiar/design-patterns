@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.SolidPrinciples.OpenClosed.Wrong;
+﻿using DesignPatterns.SolidPrinciples.OpenClosed.Wrong;
+
+namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
 public class Product
 {

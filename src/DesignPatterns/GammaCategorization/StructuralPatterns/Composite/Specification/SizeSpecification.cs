@@ -1,8 +1,6 @@
-﻿using DesignPatterns.SolidPrinciples.OpenClosed.Wrong;
+﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
-namespace DesignPatterns.SolidPrinciples.OpenClosed.Correct;
-
-public class SizeSpecification : ISpecification<Product>
+public class SizeSpecification : Specification<Product>
 {
     private readonly Size _size;
 
@@ -11,7 +9,7 @@ public class SizeSpecification : ISpecification<Product>
         _size = size;
     }
     
-    public bool IsSatisfied(Product product)
+    public override bool IsSatisfied(Product product)
     {
         return product.Size == _size;
     }

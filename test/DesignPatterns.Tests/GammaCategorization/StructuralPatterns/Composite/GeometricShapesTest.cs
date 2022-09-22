@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Tests.GammaCategorization.StructuralPatterns.Composite;
 
-public class CompositeTest
+public class GeometricShapesTest
 {
     [Fact]
     public void Test()

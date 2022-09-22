@@ -2,5 +2,9 @@
 
 public class FacadeTest
 {
-    
+    [Fact]
+    public void Test()
+    {
+        
+    }
 }

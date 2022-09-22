@@ -1,10 +1,8 @@
-﻿using DesignPatterns.SolidPrinciples.OpenClosed.Wrong;
-
-namespace DesignPatterns.SolidPrinciples.OpenClosed.Correct;
+﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
 public class BetterFilter : IFilter<Product>
 {
-    public IEnumerable<Product> Filter(IEnumerable<Product> products, ISpecification<Product> specification)
+    public IEnumerable<Product> Filter(IEnumerable<Product> products, Specification<Product> specification)
     {
         return products.Where(specification.IsSatisfied);
     }

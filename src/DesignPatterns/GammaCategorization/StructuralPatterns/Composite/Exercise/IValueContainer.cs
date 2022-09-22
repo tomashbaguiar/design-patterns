@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Exercise;
 
-public interface IValueContainer
+public interface IValueContainer : IEnumerable<int>
 {
     
 }

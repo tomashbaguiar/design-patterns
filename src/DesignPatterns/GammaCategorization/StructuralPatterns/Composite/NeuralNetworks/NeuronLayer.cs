@@ -1,6 +1,8 @@
-﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.NeuralNetworks;
+﻿using System.Collections.ObjectModel;
 
-public class NeuronLayer
+namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.NeuralNetworks;
+
+public class NeuronLayer : Collection<Neuron>
 {
     
 }

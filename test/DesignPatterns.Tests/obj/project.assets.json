@@ -1783,6 +1783,9 @@
       "DesignPatterns/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-rc.1.22426.10"
+        },
         "compile": {
           "bin/placeholder/DesignPatterns.dll": {}
         },

@@ -1,10 +1,19 @@
-﻿namespace DesignPatterns.Tests.GammaCategorization.StructuralPatterns.Decorator;
+﻿using DesignPatterns.GammaCategorization.StructuralPatterns.Decorator.StringBuilder;
 
-public class DecoratorTest
+namespace DesignPatterns.Tests.GammaCategorization.StructuralPatterns.Decorator;
+
+public class StringBuilderTest
 {
     [Fact]
     public void Test()
     {
+        const string expected = "class Foo\r\n{\r\n}"; 
         
+        var codeBuilder = new CodeBuilder();
+        codeBuilder.AppendLine("class Foo")
+            .AppendLine("{")
+            .AppendLine("}");
+        
+        Assert.Matches(expected, codeBuilder.ToString());
     }
 }

@@ -1,18 +1,14 @@
-﻿namespace DesignPatterns.SolidPrinciples.OpenClosed.Correct;
+﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
-public class AndSpecification<T> : ISpecification<T>
+// Combinator
+public class AndSpecification<T> : CompositeSpecification<T>
 {
-    private readonly ISpecification<T> _first;
-    private readonly ISpecification<T> _second;
-
-    public AndSpecification(ISpecification<T> first, ISpecification<T> second)
+    public AndSpecification(params Specification<T>[] items) : base(items)
     {
-        _first = first ?? throw new ArgumentNullException(nameof(first));
-        _second = second ?? throw new ArgumentNullException(nameof(second));
     }
-
-    public bool IsSatisfied(T type)
+    
+    public override bool IsSatisfied(T type)
     {
-        return _first.IsSatisfied(type) && _second.IsSatisfied(type);
+        return _items.All(i => i.IsSatisfied(type));
     }
 }

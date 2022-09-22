@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "asOPE41EpCnhf5f8V8ckZp1rvcDgQv86O0zhZMkizVTzdvo2P3aaPLIQ1jF4pfQA7L/0+7w5oWDBXWAuEm80og==",
+  "dgSpecHash": "5RpQ0sr2NhMW5A/Fi/W5ZnojKjzaEJh2R3Zw5dDuvqupP6vT115iKaaHJHronQVRplwtkhaZ2oYDqHULFSFA5w==",
   "success": true,
   "projectFilePath": "C:\\tomas.git\\DesignPatterns\\test\\DesignPatterns.Tests\\DesignPatterns.Tests.csproj",
   "expectedPackageFiles": [

@@ -1,8 +1,6 @@
-﻿using DesignPatterns.SolidPrinciples.OpenClosed.Wrong;
+﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.Specification;
 
-namespace DesignPatterns.SolidPrinciples.OpenClosed.Correct;
-
-public class ColorSpecification : ISpecification<Product>
+public class ColorSpecification : Specification<Product>
 {
     private readonly Color _color;
 
@@ -11,7 +9,7 @@ public class ColorSpecification : ISpecification<Product>
         _color = color;
     }
     
-    public bool IsSatisfied(Product product)
+    public override bool IsSatisfied(Product product)
     {
         return product.Color == _color;
     }

@@ -1176,6 +1176,9 @@
       },
       "xunit.runner.visualstudio/2.4.3": {},
       "DesignPatterns/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-rc.1.22426.10"
+        },
         "runtime": {
           "DesignPatterns.dll": {}
         }

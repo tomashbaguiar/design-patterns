@@ -2,5 +2,5 @@
 
 public interface IReportingService
 {
-    
+    string Report();
 }

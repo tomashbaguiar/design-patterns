@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite;
+﻿namespace DesignPatterns.GammaCategorization.StructuralPatterns.Composite.GeometricShapes;
 
 public class Square : GraphicObject
 {
