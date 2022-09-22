@@ -1,0 +1,12 @@
+C:\tomas.git\DesignPatterns\src\DesignPatterns\bin\Debug\net6.0\DesignPatterns.deps.json
+C:\tomas.git\DesignPatterns\src\DesignPatterns\bin\Debug\net6.0\DesignPatterns.dll
+C:\tomas.git\DesignPatterns\src\DesignPatterns\bin\Debug\net6.0\DesignPatterns.pdb
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.AssemblyReference.cache
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.AssemblyInfoInputs.cache
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.AssemblyInfo.cs
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.dll
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\refint\DesignPatterns.dll
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\DesignPatterns.pdb
+C:\tomas.git\DesignPatterns\src\DesignPatterns\obj\Debug\net6.0\ref\DesignPatterns.dll
