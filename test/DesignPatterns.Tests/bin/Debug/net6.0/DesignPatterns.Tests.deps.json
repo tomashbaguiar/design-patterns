@@ -10,6 +10,7 @@
         "dependencies": {
           "Autofac": "6.4.0",
           "DesignPatterns": "1.0.0",
+          "JetBrains.dotMemoryUnit": "3.2.20220510",
           "Microsoft.Extensions.Configuration": "7.0.0-rc.1.22426.10",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NSubstitute": "4.4.0",
@@ -44,6 +45,14 @@
         }
       },
       "coverlet.collector/3.1.2": {},
+      "JetBrains.dotMemoryUnit/3.2.20220510": {
+        "runtime": {
+          "lib/netstandard2.0/dotMemory.Unit.dll": {
+            "assemblyVersion": "777.0.0.0",
+            "fileVersion": "777.0.0.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.1.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1211,6 +1220,13 @@
       "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+    },
+    "JetBrains.dotMemoryUnit/3.2.20220510": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jhzqT6zXFN0S6zxNXKmiEoNIqAEtlbsteQEhDA8TkTFfQpE/noktqU1HXfJ4P2PPczW48aFW9h69nHY8pSbnXw==",
+      "path": "jetbrains.dotmemoryunit/3.2.20220510",
+      "hashPath": "jetbrains.dotmemoryunit.3.2.20220510.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.1.0": {
       "type": "package",

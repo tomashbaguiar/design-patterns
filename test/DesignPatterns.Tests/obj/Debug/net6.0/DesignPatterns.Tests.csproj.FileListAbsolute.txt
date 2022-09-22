@@ -109,3 +109,4 @@ C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\Autofac.d
 C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\dotMemory.Unit.dll

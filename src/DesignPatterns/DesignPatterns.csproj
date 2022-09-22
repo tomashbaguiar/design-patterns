@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="GammaCategorization\BehavioralPatterns" />
-    <Folder Include="GammaCategorization\StructuralPatterns\Facade" />
   </ItemGroup>
 
   <ItemGroup>

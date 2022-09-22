@@ -105,6 +105,10 @@
               "target": "Package",
               "version": "[6.4.0, )"
             },
+            "JetBrains.dotMemoryUnit": {
+              "target": "Package",
+              "version": "[3.2.20220510, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.10, )"
