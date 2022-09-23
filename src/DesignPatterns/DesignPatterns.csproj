@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ImpromptuInterface" Version="7.0.1" />
     <PackageReference Include="Microsoft.Extensions.Primitives" Version="7.0.0-rc.1.22426.10" />
   </ItemGroup>
 

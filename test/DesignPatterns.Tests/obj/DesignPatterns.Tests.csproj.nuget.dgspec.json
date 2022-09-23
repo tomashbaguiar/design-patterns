@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "ImpromptuInterface": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.Extensions.Primitives": {
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.10, )"
@@ -104,6 +108,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "ImpromptuInterface": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "JetBrains.dotMemoryUnit": {
               "target": "Package",

@@ -10,6 +10,7 @@
         "dependencies": {
           "Autofac": "6.4.0",
           "DesignPatterns": "1.0.0",
+          "ImpromptuInterface": "7.0.1",
           "JetBrains.dotMemoryUnit": "3.2.20220510",
           "Microsoft.Extensions.Configuration": "7.0.0-rc.1.22426.10",
           "Microsoft.NET.Test.Sdk": "17.1.0",
@@ -45,6 +46,32 @@
         }
       },
       "coverlet.collector/3.1.2": {},
+      "Dynamitey/2.0.9.136": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "NETStandard.Library": "1.6.1",
+          "System.ComponentModel": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Dynamitey.dll": {
+            "assemblyVersion": "2.0.9.136",
+            "fileVersion": "2.0.9.136"
+          }
+        }
+      },
+      "ImpromptuInterface/7.0.1": {
+        "dependencies": {
+          "Dynamitey": "2.0.9.136",
+          "Microsoft.CSharp": "4.4.1",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImpromptuInterface.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.0"
+          }
+        }
+      },
       "JetBrains.dotMemoryUnit/3.2.20220510": {
         "runtime": {
           "lib/netstandard2.0/dotMemory.Unit.dll": {
@@ -61,26 +88,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.0.1": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Dynamic.Runtime": "4.0.11",
-          "System.Globalization": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Threading": "4.3.0"
-        }
-      },
+      "Microsoft.CSharp/4.4.1": {},
       "Microsoft.Extensions.Configuration/7.0.0-rc.1.22426.10": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-rc.1.22426.10",
@@ -427,7 +435,7 @@
       },
       "Newtonsoft.Json/9.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.0.1",
+          "Microsoft.CSharp": "4.4.1",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Dynamic.Runtime": "4.0.11",
@@ -557,6 +565,11 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
         }
       },
       "System.Console/4.3.0": {
@@ -1186,6 +1199,7 @@
       "xunit.runner.visualstudio/2.4.3": {},
       "DesignPatterns/1.0.0": {
         "dependencies": {
+          "ImpromptuInterface": "7.0.1",
           "Microsoft.Extensions.Primitives": "7.0.0-rc.1.22426.10"
         },
         "runtime": {
@@ -1221,6 +1235,20 @@
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
     },
+    "Dynamitey/2.0.9.136": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SzGWOl8nKR4r7WYiyMgJ0n/MuncdtPSyjxe1+znH8KVKOFQAckXFOeqOXgcWSMLHT+ehAYtZHPWjX+GsH7eI4Q==",
+      "path": "dynamitey/2.0.9.136",
+      "hashPath": "dynamitey.2.0.9.136.nupkg.sha512"
+    },
+    "ImpromptuInterface/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9w44OsRuNJoAX0dbVoNqdljCqQIk33Hha5W+BcnWVwawFCEuVBDZbPQafgE1gVvvRaQhc1FOIKuJIIhXZmadvA==",
+      "path": "impromptuinterface/7.0.1",
+      "hashPath": "impromptuinterface.7.0.1.nupkg.sha512"
+    },
     "JetBrains.dotMemoryUnit/3.2.20220510": {
       "type": "package",
       "serviceable": true,
@@ -1235,12 +1263,12 @@
       "path": "microsoft.codecoverage/17.1.0",
       "hashPath": "microsoft.codecoverage.17.1.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.0.1": {
+    "Microsoft.CSharp/4.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
-      "path": "microsoft.csharp/4.0.1",
-      "hashPath": "microsoft.csharp.4.0.1.nupkg.sha512"
+      "sha512": "sha512-A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA==",
+      "path": "microsoft.csharp/4.4.1",
+      "hashPath": "microsoft.csharp.4.4.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0-rc.1.22426.10": {
       "type": "package",
@@ -1472,6 +1500,13 @@
       "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
     },
     "System.Console/4.3.0": {
       "type": "package",
