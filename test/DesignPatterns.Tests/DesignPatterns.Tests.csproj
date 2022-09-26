@@ -30,8 +30,4 @@
     <ProjectReference Include="..\..\src\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="GammaCategorization\BehavioralPatterns" />
-  </ItemGroup>
-
 </Project>
