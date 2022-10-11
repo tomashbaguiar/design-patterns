@@ -112,3 +112,4 @@ C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\Microsoft
 C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\dotMemory.Unit.dll
 C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\Dynamitey.dll
 C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\ImpromptuInterface.dll
+C:\tomas.git\DesignPatterns\test\DesignPatterns.Tests\bin\Debug\net6.0\System.Reactive.dll

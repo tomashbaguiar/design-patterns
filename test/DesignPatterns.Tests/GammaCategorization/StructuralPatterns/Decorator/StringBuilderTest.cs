@@ -7,7 +7,7 @@ public class StringBuilderTest
     [Fact]
     public void Test()
     {
-        const string expected = "class Foo\r\n{\r\n}"; 
+        const string expected = "class Foo\r\n{\r\n}";
         
         var codeBuilder = new CodeBuilder();
         codeBuilder.AppendLine("class Foo")

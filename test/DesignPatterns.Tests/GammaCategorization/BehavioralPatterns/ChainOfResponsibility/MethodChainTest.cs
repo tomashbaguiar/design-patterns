@@ -18,7 +18,7 @@ public class MethodChainTest
     }
     
     [Fact]
-    public void IncreasingDefence()
+    public void IncreasingDefense()
     {
         const int defense = 2;
         var goblin = new Creature("Goblin", 2, defense);

@@ -4,7 +4,7 @@ namespace DesignPatterns.GammaCategorization.StructuralPatterns.Decorator.String
 
 public class CodeBuilder
 {
-    private System.Text.StringBuilder _builder = new();
+    private readonly System.Text.StringBuilder _builder = new();
     
     public void GetObjectData(SerializationInfo info, StreamingContext context)
     {

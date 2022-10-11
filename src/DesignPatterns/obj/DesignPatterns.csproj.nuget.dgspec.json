@@ -13,13 +13,20 @@
         "packagesPath": "C:\\Users\\tomas.aguiar\\.nuget\\packages\\",
         "outputPath": "C:\\tomas.git\\DesignPatterns\\src\\DesignPatterns\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tomas.aguiar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tomas.aguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +52,10 @@
             "Microsoft.Extensions.Primitives": {
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.10, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

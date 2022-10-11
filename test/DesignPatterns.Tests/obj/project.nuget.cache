@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xEtF9U1vs5VuyIPhkcVbuFT/ihTntZt31DWKcDcgQNMi5wcuWrkZ5hPDVhEwhcHkbspx84YR5tY9/JS4Z/5pTw==",
+  "dgSpecHash": "P8YT+PrFfxaAS8tx43L75SP8breaRyTlt4i0KzPIwg5HOveqWtNoe+AKEYVbGLwkosepQ9cMtyWis8I1SpIHNA==",
   "success": true,
   "projectFilePath": "C:\\tomas.git\\DesignPatterns\\test\\DesignPatterns.Tests\\DesignPatterns.Tests.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,7 @@
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
