@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            },
             "Microsoft.Extensions.Primitives": {
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.10, )"

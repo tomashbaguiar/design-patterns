@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GqHrPzzvoHaf1a/ALReLnlqr1ITJf/Cwf3XqEgMSQCW5TKQZo/RcILOpoExIqCe7GMpkmjjY+YruXimwTGgOVQ==",
+  "dgSpecHash": "gCZy/jDtJVvLxaJyzXzqsD0fhR3Lp29aiZbHI114bN8LUUs/8o51D/d2wE0TvkQDdpanEyTEWQFX43T3xUJO6w==",
   "success": true,
   "projectFilePath": "C:\\tomas.git\\DesignPatterns\\src\\DesignPatterns\\DesignPatterns.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\impromptuinterface\\7.0.1\\impromptuinterface.7.0.1.nupkg.sha512",
+    "C:\\Users\\tomas.aguiar\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.1.22426.10\\microsoft.extensions.primitives.7.0.0-rc.1.22426.10.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

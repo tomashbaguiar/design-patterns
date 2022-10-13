@@ -68,6 +68,19 @@
           "lib/netstandard2.0/ImpromptuInterface.dll": {}
         }
       },
+      "JetBrains.Annotations/2022.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "JetBrains.dotMemoryUnit/3.2.20220510": {
         "type": "package",
         "compile": {
@@ -2000,6 +2013,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ImpromptuInterface": "7.0.1",
+          "JetBrains.Annotations": "2022.1.0",
           "Microsoft.Extensions.Primitives": "7.0.0-rc.1.22426.10",
           "System.Reactive": "5.0.0"
         },
@@ -2134,6 +2148,28 @@
         "impromptuinterface.nuspec",
         "lib/net40/ImpromptuInterface.dll",
         "lib/netstandard2.0/ImpromptuInterface.dll"
+      ]
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "sha512": "ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "type": "package",
+      "path": "jetbrains.annotations/2022.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2022.1.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
     "JetBrains.dotMemoryUnit/3.2.20220510": {

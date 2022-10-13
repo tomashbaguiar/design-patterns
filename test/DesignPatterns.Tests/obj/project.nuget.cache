@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P8YT+PrFfxaAS8tx43L75SP8breaRyTlt4i0KzPIwg5HOveqWtNoe+AKEYVbGLwkosepQ9cMtyWis8I1SpIHNA==",
+  "dgSpecHash": "EcEb6G69xP2DltH62BwD9d7+D8rh9q/CL87wj1tjMvDY69Y+Hxil1aJLhDhEjGRR4ukt5UXgRWR1oGM6NRxrBw==",
   "success": true,
   "projectFilePath": "C:\\tomas.git\\DesignPatterns\\test\\DesignPatterns.Tests\\DesignPatterns.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\impromptuinterface\\7.0.1\\impromptuinterface.7.0.1.nupkg.sha512",
+    "C:\\Users\\tomas.aguiar\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\jetbrains.dotmemoryunit\\3.2.20220510\\jetbrains.dotmemoryunit.3.2.20220510.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\tomas.aguiar\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
