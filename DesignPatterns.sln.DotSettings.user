@@ -2,5 +2,12 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa6bec24_002D39e3_002D4453_002Dbf95_002D1ae1b2413f3a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UndoRedoTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Memento.UndoRedoTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.IntrusiveTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.ReflectiveTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.ClassicTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.ClassicTest.Test_Calculator&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.ReductionAndTransformTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.DynamicTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::244638F1-9383-48E2-85AB-AA3B1E8584CA::net6.0::DesignPatterns.Tests.GammaCategorization.BehavioralPatterns.Visitor.AcyclicTest.Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
