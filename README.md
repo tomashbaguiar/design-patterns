@@ -1,4 +1,4 @@
-# design-patterns
+# Design Patterns in C#\.NET
 
 ## What are Design Patterns
 
